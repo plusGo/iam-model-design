@@ -25,7 +25,7 @@ public class IAMService {
             public void run() {
 
             }
-        });
+        }).run();
         ArrayList<Condition> conditions = new ArrayList<>();
         conditions.add(new Condition() {
             @Override

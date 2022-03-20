@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum ResourceType implements BaseDBEnum {
+public enum  ResourceType implements BaseDBEnum {
     API(0, "接口"),
     FIELD(1, "字段"),
     USER_INFO(2, "用户信息"),
