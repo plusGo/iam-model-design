@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8088/resources
+Content-Type: application/json
+
+{
+  "type": "0",
+  "name": "UOS API1",
+  "description": "UOS API1",
+  "realId": "111111",
+  "realBriefData": "{name:'uos api1'}",
+  "preConditions": "[\"return true\",\"return true\",\"return true\"]"
+}

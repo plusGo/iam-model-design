@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8088/authorizationRecords
+Content-Type: application/json
+
+{
+  "identityId": 1507549699271036930,
+  "resourceId": 1507547475857911810,
+  "conditions": [],
+  "expireTime": "2022-03-26 00:00:00"
+}
+
+#####
+
+GET http://127.0.0.1:8088/authorizationRecords/identity/1507549699271036930
+Content-Type: application/json
+

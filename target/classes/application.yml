@@ -1,0 +1,18 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    include: secret
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://407f15171q.51vip.biz:10001/henry_iam?useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: '!@##@!qweewq'
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler

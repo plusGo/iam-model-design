@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8088/access/canAccess
+Content-Type: application/json
+
+{
+  "identityRealId": "aaaaaaaaaaaa",
+  "resourceRealId": "111111"
+}
+
+#####

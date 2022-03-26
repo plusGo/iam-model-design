@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8088/identities
+Content-Type: application/json
+
+{
+    "type":"0",
+    "name":"张三/aaaaaa",
+    "description":"张三/aaaaaa",
+    "realId":"aaaaaaaaaaaa"
+}
